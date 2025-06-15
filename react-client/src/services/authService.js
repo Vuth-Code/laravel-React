@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000/api';
+const API_URL = import.meta.env.VITE_API_BASE_URL || 'http://52.76.95.241:8000/api';
 const TOKEN_NAME = import.meta.env.VITE_AUTH_TOKEN_NAME || 'auth_token';
 
 export const login = async (email, password) => {

@@ -11,7 +11,7 @@ export const ProductsProvider = ({ children }) => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:8000/api/products');
+        const response = await fetch('http://52.76.95.241:8000/api/products');
         if (!response.ok) throw new Error('Failed to fetch products');
 
         const data = await response.json();

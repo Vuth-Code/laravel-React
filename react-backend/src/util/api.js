@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Get API URL from environment or use the remote server URL
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://52.76.95.241:8000/api";
 
 export const request = (url = "", method = "GET", data = {}) => {
   let access_token = localStorage.getItem("access_token");

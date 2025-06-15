@@ -3,8 +3,8 @@
 // import { Select, QRCode, Input, Space } from "antd";
 function Homepage() {
   // const [text, setText] = React.useState("https://ant.design/");
-  const api_url = "http://127.0.0.1:8000";
-  const image_path = "http://127.0.0.1:8000/storage/";
+  const api_url = "http://52.76.95.241:8000";
+  const image_path = "http://52.76.95.241:8000/storage/";
 
   const name = localStorage.getItem("name");
   const email = localStorage.getItem("email");
